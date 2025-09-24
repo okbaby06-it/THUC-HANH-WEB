@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <!-- gồm 13 hàng -->
+        <tr>
+          <td class="head" colspan="2">ĐĂNG KÝ</td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="fullname">Full name</label>
+          </td>
+          <td class="width70">
+            <input
+              class="width-input"
+              type="text"
+              name="fullname"
+              id="fullname"
+              placeholder="Nhập tên đầy đủ"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="username">Username</label>
+          </td>
+          <td class="width-70">
+            <input
+              class="width-input"
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Nhập tên đăng nhập"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="password">Password</label>
+          </td>
+          <td class="width-70">
+            <input
+              class="width-input"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Nhập mật khẩu"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="password-2">Password</label>
+          </td>
+          <td class="width-70">
+            <input
+              class="width-input"
+              type="password"
+              name="password-2"
+              id="password-2"
+              placeholder="Nhập lại mật khẩu"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="sex">Giới tính</label>
+          </td>
+          <td class="width-70">
+            <input type="radio" name="name" value="sex" /> Nam
+            <input type="radio" name="name" value="sex" /> Nữ
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="date">Ngày sinh</label>
+          </td>
+          <td class="width-70">
+            <input type="date" name="date" id="date" />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="diachi">Địa chỉ</label>
+          </td>
+          <td class="width-70">
+            <textarea class="width-input" name="diachi" id="diachi"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="dienthoai">Điện thoại</label>
+          </td>
+          <td class="width-70">
+            <input
+              class="width-input"
+              type="number"
+              name="dienthoai"
+              id="dienthoai"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="email">Email</label>
+          </td>
+          <td class="width-70">
+            <input class="width-input" type="email" name="email" id="email" />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="hinhdaidien">Hình đại diện</label>
+          </td>
+          <td class="width-70">
+            <input type="file" name="hinhdaidien" id="hinhdaidien" />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="width-30">
+            <label for="sothich">Sở thích</label>
+          </td>
+          <td class="width-70">
+            <input type="checkbox" name="xemphim" id="" /> Xem phim
+            <input type="checkbox" name="nghenhac" id="" /> Nghe nhạc
+            <input type="checkbox" name="docsach" id="" /> Đọc sách
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <div class="button">
+                <input type="reset" value="Reset" />
+                <input type="reset" value="OK" />
+            </div class="button">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
