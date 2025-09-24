@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* viền container */
+.container {
+  border: 2px solid rgb(61, 134, 218);
+}
+
+/* margin giữa table với container */
+.main {
+  margin: 80px;
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+
+  /* box-sizing: border-box; */
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+td,
+tr {
+  border: 1px solid rgb(163, 162, 162);
+}
+
+td {
+  padding: 8px;
+}
+
+.color-heading {
+  color: white;
+  background-color: blue;
+  text-align: center;
+}
+
+/* set chiều rộng cho cột 1 3 4*/
+td.width-20 {
+  width: 20%;
+}
+
+/* width 2 */
+td.width40 {
+  width: 40%;
+}
+
+/* set màu cho 2 hàng 4 6 */
+.color-row {
+  background-color: rgb(130, 172, 221);
+}
+
+/* căn chỉnh cho hàng cuối */
+tr:last-child td {
+  font-weight: 600;
+  text-align: center;
+}
